@@ -1,0 +1,19 @@
+@import "./null.scss";
+@import "./variables.scss";
+
+@font-face {
+  font-family: "BrandonGrotesque-Light";
+  font-display: block;
+  src: url("../fonts/BrandonGrotesque-Light.woff") format("woff"),
+    url("../fonts/BrandonGrotesque-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: $color1;
+  font-size: 14px;
+  font-family: $font1, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
